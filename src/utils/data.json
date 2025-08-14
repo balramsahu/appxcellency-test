@@ -1,0 +1,118 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "name": "Jerome Bell",
+            "email": "jackson.graham@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=3",
+            "roles": [
+                "Admin",
+                "Editor"
+            ],
+            "lastActivity": "August 2, 2013",
+            "company_id": "1"
+        },
+        {
+            "id": 2,
+            "name": "Cody Fisher",
+            "email": "tim.jennings@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5",
+            "roles": [
+                "Admin",
+                "Editor",
+                "Viewer"
+            ],
+            "lastActivity": "September 24, 2017",
+            "company_id": "2"
+        },
+        {
+            "id": 3,
+            "name": "Kristin Watson",
+            "email": "debra.holt@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=8",
+            "roles": [
+                "Admin",
+                "Editor"
+            ],
+            "lastActivity": "February 9, 2015",
+            "company_id": "3"
+        },
+        {
+            "id": 4,
+            "name": "Guy Hawkins",
+            "email": "nevaeh.simmons@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11",
+            "roles": [
+                "Admin",
+                "Editor",
+                "Viewer"
+            ],
+            "lastActivity": "March 6, 2018",
+            "company_id": "3"
+        },
+        {
+            "id": 5,
+            "name": "Cody Fisher",
+            "email": "tim.jennings@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=5",
+            "roles": [
+                "Admin",
+                "Editor",
+                "Viewer"
+            ],
+            "lastActivity": "September 24, 2017",
+            "company_id": "2"
+        },
+        {
+            "id": 6,
+            "name": "Kristin Watson",
+            "email": "debra.holt@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=8",
+            "roles": [
+                "Admin",
+                "Editor"
+            ],
+            "lastActivity": "February 9, 2015",
+            "company_id": "1"
+        },
+        {
+            "id": 7,
+            "name": "Guy Hawkins",
+            "email": "nevaeh.simmons@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=11",
+            "roles": [
+                "Admin",
+                "Editor",
+                "Viewer"
+            ],
+            "lastActivity": "March 6, 2018",
+            "company_id": "1"
+        }
+    ],
+    "Company": [
+        {
+            "id": 1,
+            "name": "Tech corp industries",
+            "description": "Leading technology solution providor",
+            "email": "nevaeh.simmons@example.com",
+            "first_name": "Tech",
+            "last_name": "corp"
+        },
+        {
+            "id": 2,
+            "name": "Tech corp industries 2",
+            "description": "Leading technology solution providor",
+            "email": "nevaeh.simmons@example.com",
+            "first_name": "Tech",
+            "last_name": "corp"
+        },
+        {
+            "id": 3,
+            "name": "Tech corp industries 3",
+            "description": "Leading technology solution providor",
+            "email": "nevaeh.simmons@example.com",
+            "first_name": "Tech",
+            "last_name": "corp"
+        }
+    ]
+}
