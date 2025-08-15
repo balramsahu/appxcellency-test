@@ -125,7 +125,7 @@ export default function UserList({ company_id }: UserListProps) {
       >
         <UserAdd
           header="Add Profile"
-          user={newUser?.user}
+          user={{ ...newUser?.user, company_id: company_id } as UserType}
           handleClose={handleNewClose}
         />
       </DialogsBox>

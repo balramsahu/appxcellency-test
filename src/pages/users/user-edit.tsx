@@ -13,7 +13,6 @@ export const UserEdit = ({ header, user, handleClose }: UserEditProps) => {
     const dispatch = useAppDispatch();
 
     const onSubmit = (data: UserType) => {
-        console.log("Form edit:", data);
         dispatch(updateUser(data))
         SnackAlertUpdated();
         handleClose();

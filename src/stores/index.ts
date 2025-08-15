@@ -1,14 +1,20 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userSlice from "./slice/userSlice";
 import companySlice from "./slice/companySlice";
+import loaderSlice from "./slice/loaderSlice"; // Import the loader slice
 
-import { useDispatch, useSelector, type TypedUseSelectorHook } from "react-redux";
+import {
+  useDispatch,
+  useSelector,
+  type TypedUseSelectorHook,
+} from "react-redux";
 
 const store = configureStore({
-    reducer: {
-        userReducer: userSlice,
-        companyReducer: companySlice,
-    }
+  reducer: {
+    userReducer: userSlice,
+    companyReducer: companySlice,
+    loaderReducer: loaderSlice,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
